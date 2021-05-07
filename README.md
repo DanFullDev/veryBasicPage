@@ -3,4 +3,4 @@ A very basic page i made for a small test in my first job.
 
 # Link
 
-You cand find this page hosted in: theverybasicpage.netlify.app
+You cand find this page hosted in: https://theverybasicpage.netlify.app
