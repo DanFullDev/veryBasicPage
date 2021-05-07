@@ -1,0 +1,303 @@
+/*Media Querie for desktop*/
+@media only screen and (min-width:600px)
+{
+    /*General tags*/
+    *{
+    margin: 0em;
+    padding: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+    body{
+        background-color: #2b2b2b;
+        float: center;
+    }
+
+    a, a:visited{
+        text-decoration: none;
+        color: orange;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:  gray;
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    hr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    li{
+        list-style: none;
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+
+    ul{
+        padding-bottom: 50px;
+    }
+    
+    /*Classes*/
+
+    .navBar{
+        background-color: #5c5c5c;
+        padding: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .navBar a{
+        text-decoration: none;
+        font-size: 15px;
+        padding: 20px;
+        margin-left: 0.5px;
+        margin-right:-5px;
+        border: 0.5px;
+        border-left: 0px;
+        border-top: 0px;
+        border-bottom: 0px;
+        border-style: solid;
+        border-color: black;
+        color: white;
+    }
+
+    .navBar a:hover{
+    background-color: white;
+    color: #5c5c5c;
+    }
+
+
+    .headBar{
+        padding:10px;
+        color: white;
+    }
+
+    .headBar h1{
+    text-align: left;
+    }
+
+    .flex-container{
+        display: flex;
+    }
+
+    .flex-cn{
+        display: flex;
+        padding: 20px;
+    }
+
+    .contentDiv{
+        background-color: white;
+        flex: 10;
+        padding: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        line-height: 25px;
+    }
+
+    .sideBar{
+        background-color:#e8e8e8;
+        flex: 4;
+        padding: 30px;
+        padding-top: 40px;
+        padding-right: 10px;
+    }
+
+    .grayCube{
+    background: #d6d6d6;
+    padding: 20px;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    flex: 2;
+    }
+
+    .imText{
+        padding-left:  20px;
+        line-height: 30px;
+        flex: 10;
+    }
+
+    /*Id's*/
+
+    #headDiv{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        font-size: 35px;
+        margin: 5px;
+    }
+
+    #headDiv h1{
+    font-size: 85px;
+    color: #ff8000;
+    }
+        
+}
+
+/*Page component classes and id's for devices with widths below 400 px*/
+
+@media only screen and (max-width:600px)
+{
+ /*General tags*/
+ *{
+    margin: 0em;
+    padding: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+        background-color: #2b2b2b;
+        float: center;
+    }
+
+    a, a:visited{
+        text-decoration: none;
+        color: orange;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        color:  gray;
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    hr{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    li{
+        list-style: none;
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+
+    ul{
+        padding-bottom: 10px;
+    }
+    
+    /*Classes*/
+
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        background-color: #5c5c5c;
+        padding: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        align-content: right;
+
+    }
+
+    .navBar a{
+        text-decoration: none;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 0.5px;
+        margin-right:-5px;
+        border: 0.5px;
+        border-left: 0px;
+        border-top: 0px;
+        border-bottom: 0px;
+        border-style: solid;
+        border-color: black;
+        color: white;
+    }
+
+    .navBar a:first-of-type{
+        text-decoration: none;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 0.5px;
+        margin-right:-5px;
+        border: 0.5px;
+        border-left: 0.5px;
+        border-top: 0px;
+        border-bottom: 0px;
+        border-style: solid;
+        border-color: black;
+        color: white;
+    }
+
+    .navBar a:hover{
+    background-color: white;
+    color: #5c5c5c;
+    }
+
+
+    .headBar{
+        padding:5px;
+        color: white;
+    }
+
+
+    .headBar h1{
+    text-align: left;
+    }
+
+   
+
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-cn{
+        display: flex;
+        padding: 2px;
+    }
+
+    .contentDiv{
+        background-color: white;
+        flex: 10;
+        padding: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        line-height: 12px;
+    }
+
+    .sideBar{
+        background-color:#e8e8e8;
+        flex: 4;
+        padding: 15px;
+        padding-top: 20px;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+
+
+    .imText{
+        padding-left:  20px;
+        line-height: 30px;
+        flex: 10;
+        font-size: 12px;
+    }
+
+    /*Id's*/
+
+    #headDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    #headDiv h1{
+    font-size: 40px;
+    color: #ff8000;
+    }       
+}
